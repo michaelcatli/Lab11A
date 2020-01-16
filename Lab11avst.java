@@ -22,6 +22,11 @@ public class Lab11avst
 	public static void computePrimes(boolean primes[])
 	{
 		System.out.println("\nCOMPUTING PRIME NUMBERS");
+		for (x=2;x<=primes.length;x++){//do this process for each item in the list..
+			for (b=x;b<=primes.length;b++){//multiplication checker
+				//if statement that checks for multiplicity
+			}
+		}
 
 	}
 
@@ -33,6 +38,3 @@ public class Lab11avst
 	}
 
 }
-
-
-
